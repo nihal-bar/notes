@@ -1,4 +1,4 @@
-# Functional Interface (explained with a lil' Java)
+# Functional Interface (explained in Java)
 
 ###### note: if this was even a little useful to you I am glad, good luck with your learnings!
 
