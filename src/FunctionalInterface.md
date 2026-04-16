@@ -1,5 +1,7 @@
 # Functional Interface (explained with a lil' Java)
 
+###### note: if this was even a little useful to you I am glad, good luck with your learnings!
+
 What is a functional Interface?
 
 An interface that contains EXACTLY one method that is neither static, nor default.
@@ -151,7 +153,7 @@ You could combine the workings of a Lambda Function with as such(they both mean 
     IntPredicate pred2 = x -> x % 2 == 0;
 ```
 
-You can also combine predicates with other predicates. Absolute tomfoolery happening here, zu wyld digga:
+You can also combine predicates with other predicates. Absolute tomfoolery happening here:
 
 ```
     IntPredicate pred1 = n -> n % 2 == 1;
@@ -162,7 +164,10 @@ You can also combine predicates with other predicates. Absolute tomfoolery happe
     IntPredicate pred6 = pred4.or ( pred5 );
 ```
 
-Do you wanna make an array of these things? No? I don't care! Here's one anyway: (the Array Component type is that of
+Do you wanna make an array of these things? 
+No? I don't care! 
+
+Here's one anyway: (the Array Component type is that of
 the Interface)
 
 ```
@@ -200,4 +205,6 @@ Short form --
  ```
    (x , y) -> x * 256 + Math.pow(y,6000) - 42
  ```
+
+
 
